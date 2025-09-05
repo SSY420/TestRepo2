@@ -155,5 +155,5 @@ public class GenericMethods {
 		}
 	}
 	
-	public static void explicityWait();
+	public static void explicityWait(){}
 }
