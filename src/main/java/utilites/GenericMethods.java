@@ -80,10 +80,15 @@ public class GenericMethods {
 	}
 	
 	
+	
 	public static String dateFormat() {
+		String date= null;
 		Date d =new Date();
-		d.get
+		SimpleDateFormat dateFformat  = new SimpleDateFormat();
+		date=dateFformat.format(d).toString();
+		return date;
 	}
+	
 	
 	public static void selectValueByIndex(int index, WebElement sel) {
 		Select s = new Select(sel);
