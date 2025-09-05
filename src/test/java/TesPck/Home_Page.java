@@ -17,7 +17,7 @@ public class Home_Page extends Generic {
 	@FindBy(xpath = "//b[.='You logged into a secure area!']")
 	private WebElement SuccessMsg;
 
-	public String LoginSuccessMsg() { //update
+	public String LoginSuccessMsg() { //update  hjkjhjk
 		return getText(SuccessMsg);
 	}
 
